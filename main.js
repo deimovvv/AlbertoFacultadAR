@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const plane2 = new THREE.Mesh(geometry2, material2)
     plane2.position.set(0,-0.4,0)
 
-    const texture3 = new THREE.TextureLoader().load('/assets/images/logohome.jpg' ); 
+    const texture3 = new THREE.TextureLoader().load('/assets/images/logohome.png' ); 
 
     const geometry3 = new THREE.PlaneGeometry(0.9,512/960)
     const material3 = new THREE.MeshBasicMaterial({map:texture3})
